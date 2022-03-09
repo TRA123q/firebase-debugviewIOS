@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="firebase-debugviewIOS" 
+  xmlns="http://apache.org/cordova/ns/plugins/1.0">
+
+  <name>firebase debugview ios</name>
+  <license>MIT</license>
+  
+    <platform name="ios">
+	
+      <hook type="before_compile" src="hooks/edit_build_json.js" />
+	
+  </platform>
+
+</plugin>

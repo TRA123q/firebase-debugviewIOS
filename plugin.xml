@@ -2,7 +2,7 @@
 <plugin id="firebase-debugviewIOS" 
   xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
-  <name>firebase debugview ios</name>
+  <name>firebase-debugviewIOS</name>
   <license>MIT</license>
   
     <platform name="ios">

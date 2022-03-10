@@ -27,13 +27,13 @@ obj_ios_debug['buildFlag'] = [];
 if ( !obj_ios_release.hasOwnProperty('buildFlag') ) {
 obj_ios_release['buildFlag'] = [];
 }
-
+  
 if( !obj_ios_debug.buildFlag.includes('FIRDebugEnabled') ) {
 obj_ios_debug.buildFlag.push( 'FIRDebugEnabled' );
 }
-if( !obj_ios_release.buildFlag.includes('FIRDebugEnabled') ) {
+/*if( !obj_ios_release.buildFlag.includes('FIRDebugEnabled') ) {
 obj_ios_release.buildFlag.push( 'FIRDebugEnabled' );
-}
+}*/
 
 var json = JSON.stringify( obj, null, 2 );
   

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="firebase-debugviewIOS" 
+<plugin id="firebase-debugviewIOS"
+  xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
   <name>firebase-debugviewIOS</name>

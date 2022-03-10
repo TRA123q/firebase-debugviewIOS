@@ -8,7 +8,7 @@
   
     <platform name="ios">
 	
-      <hook type="before_compile" src="hooks/edit_build_json.js" />
+      <hook type="before_compile" src="hooks/edit_build_json.js"/>
 	
   </platform>
 

@@ -28,11 +28,11 @@ if ( !obj_ios_release.hasOwnProperty('buildFlag') ) {
 obj_ios_release['buildFlag'] = [];
 }
   
-if( !obj_ios_debug.buildFlag.includes('-FIRDebugEnabled=1') ) {
-obj_ios_debug.buildFlag.push( '-FIRDebugEnabled=1' );
+if( !obj_ios_debug.buildFlag.includes('-FIRDebugEnabled=true') ) {
+obj_ios_debug.buildFlag.push( '-FIRDebugEnabled=true' );
 }
-if( !obj_ios_release.buildFlag.includes('-FIRDebugEnabled=1') ) {
-obj_ios_release.buildFlag.push( '-FIRDebugEnabled=1' );
+if( !obj_ios_release.buildFlag.includes('-FIRDebugEnabled=true') ) {
+obj_ios_release.buildFlag.push( '-FIRDebugEnabled=true' );
 }
 
 var json = JSON.stringify( obj, null, 2 );
